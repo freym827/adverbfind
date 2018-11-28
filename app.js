@@ -1,5 +1,6 @@
 var nonAdArr = ["silly", "early", "bubbly", "burly", "chilly", "costly", "cuddly", "tally", "sly", "bully", "monopoly",
-                    "family", "ally", "anomoly", "comply", "belly", "supply", "rely", "rally", "jelly", "lily", "curly"]
+                    "family", "ally", "anomoly", "comply", "belly", "supply", "rely", "rally", "jelly", "lily", "curly",
+                "holy", "hourly", "ugly", "imply"]
 
 $(".sbtn").on("click", function() {
     $(".t2").val("")
