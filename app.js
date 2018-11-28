@@ -13,7 +13,7 @@ $(".sbtn").on("click", function() {
         }else if(arr[i].charAt(arr[i].length-1) == "y" && arr[i].charAt(arr[i].length-2) == "l") {
             adv.push(arr[i])
             adstring += arr[i] + " "
-        }else if(arr[i].charAt(arr[i].length-1) == "," || arr[i].charAt(arr[i].length-1) == ".") {
+        }else if(arr[i].charAt(arr[i].length-1) == "," || arr[i].charAt(arr[i].length-1) == "." || arr[i].charAt(arr[i].length-1) == "!" || arr[i].charAt(arr[i].length-1) == "?") {
             if(arr[i].charAt(arr[i].length-2) == "y" && arr[i].charAt(arr[i].length-3) == "l") {
                 adv.push(arr[i])
                 adstring += arr[i] + " "
