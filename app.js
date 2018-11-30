@@ -15,7 +15,7 @@ var punctuationCase = function(word, punct) {
         nadstring += word.substring(endofword, word.length)
     }else if(temp.charAt(temp.length-1) == "y" && temp.charAt(temp.length-2) == "l") {
         adstring += temp + " "
-        nadstring += word.substring(endofword, word.length)
+        nadstring = nadstring.substring(0, nadstring.length -1) + word.substring(endofword, word.length)
     }else {
         nadstring += word + " "
     }
@@ -55,9 +55,7 @@ var checkword = function() {
 }
 
 $(".sbtn").on("click", function() {
-    checkword()
     $(".t2").val(checkword())
-    
 });
 
 $(".ibtn").on("click", function() {
