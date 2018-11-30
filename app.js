@@ -1,7 +1,7 @@
 var nonAdArr = ["silly", "early", "bubbly", "burly", "chilly", "costly", "cuddly", "tally", "sly", "bully", "monopoly",
                     "family", "ally", "anomoly", "comply", "belly", "supply", "rely", "rally", "jelly", "lily", "curly",
                 "holy", "hourly", "ugly", "imply"]
-var adArr = ["very", "so", "much"]
+var adArr = ["very", "so", "much", "often", "sometimes", "even", "never", "too"]
 var adstring = ""
 var nadstring = ""
 
