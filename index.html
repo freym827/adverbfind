@@ -9,17 +9,23 @@
     <title>Adverb Find</title>
 </head>
 <body>
-    <h1>Adverb Find</h1>
-    <input type="text" class="ignore"> 
-    <button class="ibtn">Add Word to Ignore</button>
-    <p class="igwords">Ignored words:</p>
-    <div class="lbldiv">
-        <h2 class="etxt">Enter Text</h2>
-        <h2 class="otxt">Output</h2>
+    <div class="head">
+        <h1>Adverb Find</h1>
+        <p class="uhtxt">Feeling too verbose? Let's take a look at a common problem.</p>
+        <p class="uhuhtxt">Add other words you would like to ignore here:</p>
+        <input type="text" class="ignore"> 
+        <button class="ibtn">Add Word to Ignore</button>
+        <p class="igwords">Ignored words:</p>
     </div>
-    <textarea class="tarea t1"></textarea>
-    <textarea class="tarea t2"></textarea>
-    <button class="sbtn">Search</button><br>
+    <div class="main">
+        <p class="enter">Enter original text here:</p>
+        <textarea class="tarea t1"></textarea>
+        <a href="#Edited"><button class="sbtn">Edit Text</button></a>
+        <a id='Edited'></a>
+        <p class="enter">Edited Text:</p>
+        <textarea class="tarea t2"></textarea>
+    </div>
+    
 </body>
 <script type = "text/javascript" src = "app.js"></script>
 </html>
